@@ -108,36 +108,56 @@ b = 3
 #     i = i + 1 # and increment i by 1
 
 
-i = 1 # loops through a block of code
-while i <= 6:
-    print(i)
-    i = i + 1
+# i = 1 # loops through a block of code
+# while i <= 6:
+#     print(i)
+#     i = i + 1
 
-mylist = ['ju', 'ji', 'jo']
+# mylist = ['ju', 'ji', 'jo']
 
-for values in mylist:
-    print(values)
+# for values in mylist:
+#     print(values)
 
 
-mydict = {
-    'name' :'john',
-    'age' : 13,
-}
+# mydict = {
+#     'name' :'john',
+#     'age' : 13,
+# }
 
-for values in mydict:
-    print(values)
+# for values in mydict:
+#     print(values)
 
-mylist = ['ju', 'ji', 'jo']
+# mylist = ['ju', 'ji', 'jo']
 
-for values in mylist:
-    print(values)
-    if values == 'ju':
-        break
+# for values in mylist:
+#     print(values)
+#     if values == 'ju':
+#         break
 
-mylist = list(range(1,21))
+# mylist = list(range(1,21))
 
-for values in mylist:
-    print(values)
-    if values == 19:
-        break
+# for values in mylist:
+#     print(values)
+#     if values == 19:
+#         break
 
+for x in range(4, 7):
+    print(x)
+else:
+    print('finished looping')
+
+#2d lists
+
+my_list = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+
+]
+# for lists in my_list:
+#     for row in lists:
+#         print(row)
+
+for lists in my_list:
+    for column in lists:
+        print(column)
