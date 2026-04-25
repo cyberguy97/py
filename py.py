@@ -94,11 +94,50 @@ b = 3
 # else:
 #     print(f"{value} is a string")
 
-value = int(input('Enter your number: '))
+# value = int(input('Enter your number: '))
 
-if value%2 == 0:
-    print(value , " is an even number ")
-else:
-    print(value , 'is Odd')
+# if value%2 == 0:
+#     print(value , " is an even number ")
+# else:
+#     print(value , 'is Odd')
 
+# i = 1 # specify a variable named i
+# while i < 6: # to use a while loop you can say/ this is a condition
+#     # as long as i is less than 6
+#     print(i) #print i
+#     i = i + 1 # and increment i by 1
+
+
+i = 1 # loops through a block of code
+while i <= 6:
+    print(i)
+    i = i + 1
+
+mylist = ['ju', 'ji', 'jo']
+
+for values in mylist:
+    print(values)
+
+
+mydict = {
+    'name' :'john',
+    'age' : 13,
+}
+
+for values in mydict:
+    print(values)
+
+mylist = ['ju', 'ji', 'jo']
+
+for values in mylist:
+    print(values)
+    if values == 'ju':
+        break
+
+mylist = list(range(1,21))
+
+for values in mylist:
+    print(values)
+    if values == 19:
+        break
 
