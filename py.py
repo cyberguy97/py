@@ -161,3 +161,5 @@ for lists in my_list:
 for lists in my_list:
     for column in lists:
         print(column)
+
+open('countries.txt', 'w')
