@@ -1,0 +1,37 @@
+1. The Parent Class Definition (Pet)
+"First, we define a Base Class (or Parent class) called Pet. This acts as a general blueprint for any kind of animal we want to create."
+The __init__ Method: "This is the Constructor. Every time we create a new pet, this method runs automatically. It takes the arguments name and age and assigns them to attributes using self. This ensures that each pet instance 'remembers' its own specific identity."
+The show Method: "This is an Instance Method. It uses an f-string to access the object's attributes (self.name and self.age) to print a formatted introduction."
+2. The Concept of Inheritance (Cat and Dog)
+"Next, we see Inheritance in action. Both the Cat and Dog classes are Subclasses (or Child classes) of Pet, indicated by the parentheses (Pet)."
+Inherited Behavior: "Because they inherit from Pet, both Cat and Dog automatically have access to the name and age attributes and the show() method without us having to rewrite that code."
+Specific Methods (speak): "Each child class defines its own speak() method. This is a great example of specialized behavior—a cat 'Meows' while a dog 'Barks', even though they are both pets."
+3. Execution (The Object p)
+"Finally, we move to the execution phase:"
+Instantiating p: "We create an instance of the Pet class named p, passing in the name 'Tim' and the age 19."
+Calling the Method: "When we call p.show(), the program looks at the Pet blueprint, finds the show method, and prints Tim’s details."
+
+class Pet: # <--- 1. CLASS
+    def __init__(self, name, age): # <--- 2. PARAMETERS (name, age)
+        self.name = name # <--- 3. ATTRIBUTE (self.name)
+        self.age = age   # <--- 3. ATTRIBUTE (self.age)
+
+    def show(self): # <--- 4. METHOD
+        print(f'i am {self.name} and i am {self.age} years old')
+
+p = Pet("Tim", 19) # <--- 5. OBJECT (p)
+
+ The Class: Pet
+This is the blueprint. It’s the definition that tells Python what a "Pet" is and what it can do. It doesn't actually exist as a "thing" until you create an object from it.
+2. The Parameters: name and age
+These are the labels in the parentheses. They act as "placeholders" for the information you pass in when you create the pet (like "Tim" and 19). They only exist for a split second while the method is running.
+3. The Attributes: self.name and self.age
+These are the data stored inside the object. Because of the self. prefix, Python "attaches" the name and age to the pet so they stay there forever.
+Think of them as the "Adjectives" describing the pet.
+4. The Method: show() (and speak())
+These are functions defined inside a class. They represent the "behavior" or actions the object can perform.
+Think of them as the "Verbs" or things the pet can do.
+5. The Object: p
+This is the instance. You took the Pet blueprint and actually built a specific pet named Tim. p is the actual living thing in your computer's memory.
+
+
