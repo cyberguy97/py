@@ -61,3 +61,18 @@ d.show()
 
 f = Fish('Memo', 3) # assume we add fish?
 f.speak()
+
+#input command with class
+
+class Person:
+    def __init__(self, name , age):
+        self.name = name
+        self.age = age
+
+name = input("Enter your name: ")
+age = input('Enter your age: ')
+
+p = Person(name, age)
+
+print(p.name)
+print(p.age)
