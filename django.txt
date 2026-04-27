@@ -38,3 +38,9 @@ Run the list command to see your new clean structure
 
 ls
 
+7.
+Run Server from that same project that has manage.py
+
+python manage.py runserver
+
+
