@@ -1,33 +1,40 @@
 1.
 Create a fresh, professional folder
-Instead of naming it py, let's give it a more professional name for your interview prep, l
-like django_projects. Use the mkdir (make directory) command:
+Instead of naming it py, let's give it a more professional name for your interview prep, like django_projects. Use the mkdir (make directory) command:
 
 mkdir django_projects
 cd django_projects
 
 2.
-you're now in a clean directory at /Users/macuser/django_projects. 
-This is the professional way to start.
-Since you are in a fresh folder, you need to rebuild the "engine" 
-(the virtual environment) and get Django ready. Follow these steps exactly to keep it "interview-clean":
+Create the Virtual Environment
+We'll name it .venv. The dot . at the beginning makes it a hidden folder in your terminal, which keeps your project view tidy.
 
 python3 -m venv .venv
 
 
-3. Activate it.
+3.
+Activate it
+This tells your Mac to start using the private Python inside this folder.
+(Confirm you see (.venv) at the start of your terminal line.)
 
-source .venv/bin/activate
 
-4. Install Django
+4.
+Install Django
+Now that you are inside the environment, install a fresh copy of Django:
 
 pip install django
 
 5.
-. Create the Project (The "Pro" Way)
+Create the Project (The "Pro" Way)
+Run this command. Don't forget the dot . at the end—it prevents Django from creating an annoying "folder inside a folder."
+
 
 django-admin startproject my_website .
 
+6.
 Verify the files
+Run the list command to see your new clean structure
+
 
 ls
+
