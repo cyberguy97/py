@@ -44,7 +44,7 @@ class Dog: # Thid whole class is an object
 
 d = Dog('Tim') # This is an instance of an object
 
-
+# what happens when we call speak
 
 
 

@@ -24,3 +24,9 @@ c = Cat('Billy', 12)
 c.show()
 d = Dog('Daggie', 15)
 d.show()
+
+# try and call speak 
+c = Cat('Billy', 12)
+c.speak()
+d = Dog('Daggie', 15)
+d.speak()
