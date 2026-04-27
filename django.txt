@@ -43,4 +43,9 @@ Run Server from that same project that has manage.py
 
 python manage.py runserver
 
+8.
+Create an app
+
+(.venv) gambritlights@MAC django_projects % python manage.py startapp main {appname}
+
 
