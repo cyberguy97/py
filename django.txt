@@ -17,6 +17,9 @@ Activate it
 This tells your Mac to start using the private Python inside this folder.
 (Confirm you see (.venv) at the start of your terminal line.)
 
+source venv/bin/activate
+
+
 
 4.
 Install Django
